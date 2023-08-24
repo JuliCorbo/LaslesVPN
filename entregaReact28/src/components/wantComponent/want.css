@@ -1,0 +1,31 @@
+
+
+#button {
+    background-color: rgb(247, 247, 247);
+    color: #f40000;
+    font-size: 1rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    border: solid #ff0000 2px;
+    border-radius: 15px;
+    @media  screen and (max-width:390px) {
+      display: none;
+      
+    }
+  }
+ 
+  #text{
+   
+        color: #4F5665;
+      }
+
+      #container{
+        @media screen and (max-width: 1036px){
+          display: block;
+          width: 100%;
+          margin: 10px;
+          padding: 10px;
+
+        }
+      }
+
