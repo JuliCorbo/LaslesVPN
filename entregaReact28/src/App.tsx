@@ -10,6 +10,7 @@ import { Choose } from './components/weprovideComponent/Choose'
 import { Weprovide } from './components/weprovideComponent/Weprovide'
 import ValidationForm from './components/Form/Form'
 import { Global } from './components/globalComponent/Global'
+import Carousel from './components/CarouselComponent/Carousel'
 
 export const BASE_URL = "https://6xrb5goi1l.execute-api.us-east-1.amazonaws.com/";
 
@@ -26,6 +27,7 @@ function App() {
     <Choose/>
     <ChooseYourPlan/>
     <Global/>
+    <Carousel/>
     <ValidationForm/>
   </div>
   
